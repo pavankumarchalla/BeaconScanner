@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0B3DE55207EA1500035CA0E /* EddyStone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3DE52207EA1500035CA0E /* EddyStone.swift */; };
+		D0B3DE56207EA1500035CA0E /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3DE53207EA1500035CA0E /* DispatchTimer.swift */; };
+		D0B3DE57207EA1500035CA0E /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3DE54207EA1500035CA0E /* BeaconScanner.swift */; };
 		D0ED8051207E8A05009AAF47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED8050207E8A05009AAF47 /* AppDelegate.swift */; };
 		D0ED8053207E8A05009AAF47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED8052207E8A05009AAF47 /* ViewController.swift */; };
 		D0ED8056207E8A05009AAF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ED8054207E8A05009AAF47 /* Main.storyboard */; };
 		D0ED8058207E8A07009AAF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ED8057207E8A07009AAF47 /* Assets.xcassets */; };
 		D0ED805B207E8A07009AAF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ED8059207E8A07009AAF47 /* LaunchScreen.storyboard */; };
+		D0ED8063207E8F75009AAF47 /* SMRippleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED8062207E8F75009AAF47 /* SMRippleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0B3DE52207EA1500035CA0E /* EddyStone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EddyStone.swift; sourceTree = "<group>"; };
+		D0B3DE53207EA1500035CA0E /* DispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimer.swift; sourceTree = "<group>"; };
+		D0B3DE54207EA1500035CA0E /* BeaconScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconScanner.swift; sourceTree = "<group>"; };
 		D0ED804D207E8A05009AAF47 /* BeaconScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0ED8050207E8A05009AAF47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0ED8052207E8A05009AAF47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		D0ED8057207E8A07009AAF47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0ED805A207E8A07009AAF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0ED805C207E8A07009AAF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0ED8062207E8F75009AAF47 /* SMRippleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMRippleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0B3DE51207EA1500035CA0E /* Beacon Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				D0B3DE52207EA1500035CA0E /* EddyStone.swift */,
+				D0B3DE53207EA1500035CA0E /* DispatchTimer.swift */,
+				D0B3DE54207EA1500035CA0E /* BeaconScanner.swift */,
+			);
+			path = "Beacon Scanner";
+			sourceTree = "<group>";
+		};
 		D0ED8044207E8A05009AAF47 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +72,10 @@
 		D0ED804F207E8A05009AAF47 /* BeaconScanner */ = {
 			isa = PBXGroup;
 			children = (
+				D0B3DE51207EA1500035CA0E /* Beacon Scanner */,
 				D0ED8050207E8A05009AAF47 /* AppDelegate.swift */,
 				D0ED8052207E8A05009AAF47 /* ViewController.swift */,
+				D0ED8062207E8F75009AAF47 /* SMRippleView.swift */,
 				D0ED8054207E8A05009AAF47 /* Main.storyboard */,
 				D0ED8057207E8A07009AAF47 /* Assets.xcassets */,
 				D0ED8059207E8A07009AAF47 /* LaunchScreen.storyboard */,
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B3DE56207EA1500035CA0E /* DispatchTimer.swift in Sources */,
 				D0ED8053207E8A05009AAF47 /* ViewController.swift in Sources */,
+				D0B3DE55207EA1500035CA0E /* EddyStone.swift in Sources */,
 				D0ED8051207E8A05009AAF47 /* AppDelegate.swift in Sources */,
+				D0B3DE57207EA1500035CA0E /* BeaconScanner.swift in Sources */,
+				D0ED8063207E8F75009AAF47 /* SMRippleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XJKNC2453;
 				INFOPLIST_FILE = BeaconScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +324,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XJKNC2453;
 				INFOPLIST_FILE = BeaconScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
